@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [bg.testScripts.login.TestLogin]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="bg.testScripts.login.TestLogin">
+        <methods>
+          <include name="testLogin"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- bg.testScripts.login.TestLogin -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [bg.testScripts.login.TestLogin] -->

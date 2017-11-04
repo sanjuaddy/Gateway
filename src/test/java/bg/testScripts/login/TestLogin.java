@@ -14,6 +14,7 @@ import java.io.IOException;
 import org.testng.annotations.AfterClass;
 
 public class TestLogin extends TestBase {
+	String sheetName = "TestLogin";
   @BeforeClass
   public void setUp() throws IOException {
 	  init();
@@ -22,6 +23,7 @@ public class TestLogin extends TestBase {
   public void testLogin() throws Exception {
 	LoginPage login = new LoginPage();
 	login.loginToApplication();
+	captureScreenshot(sheetName);
   }
   
   @AfterClass

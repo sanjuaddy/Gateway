@@ -17,7 +17,7 @@ public class TestLogin extends TestBase {
 	String sheetName = "TestLogin";
   @BeforeClass
   public void setUp() throws IOException {
-	  init();
+	  //init();
 	  }
   @Test
   public void testLogin() throws Exception {
